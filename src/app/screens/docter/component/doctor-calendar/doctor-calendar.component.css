@@ -1,0 +1,52 @@
+.img-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.mail-contnet {
+  display: inline-block;
+  width: 73%;
+  vertical-align: middle;
+}
+.docter-img {
+  margin-right: 10px;
+}
+.mail-contnet h5 {
+  margin: 5px 0px 0;
+  color: #212121;
+}
+.search {
+  display: flex;
+  height: 36px;
+  border-radius: 32px;
+  box-sizing: border-box;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row-reverse;
+  animation: 0.3s open_search;
+  width: 250px;
+  padding: 22.4px;
+  background-color: rgba(0, 0, 0, 0.08);
+  -webkit-animation: 0.3s open_search;
+}
+.search-input {
+  color: black;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 19px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 36px;
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 4px;
+}
+.search-icon {
+  padding: 0 7px 3px 0;
+  color: hsla(0, 85%, 54%, 0.35);
+}

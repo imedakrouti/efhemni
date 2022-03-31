@@ -1,0 +1,28 @@
+<mat-card>
+   <mat-card-title fxLayout="row" fxLayoutAlign="space-between">
+       <p class=chart-title>ملغى</p>
+       <p class="chart-percent bg-danger">+34%</p>
+   </mat-card-title>
+   <mat-card-content >
+      
+        <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [xaxis]="chartOptions.xaxis"
+    [yaxis]="chartOptions.yaxis"
+    [grid]="chartOptions.grid"
+    [stroke]="chartOptions.stroke"
+    [tooltip]="chartOptions.tooltip"
+    [dataLabels]="chartOptions.dataLabels"
+    [colors]="chartOptions.colors"
+
+  ></apx-chart>
+  <div class="labels">
+   <p class="label-number">03</p>
+    <p class="label-title">اليوم</p>
+  </div>
+   </mat-card-content>
+     
+
+   
+</mat-card>

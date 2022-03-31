@@ -1,0 +1,39 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mat-drawer-container {
+  background: $bodycolor;
+}
+.html .page-wrapper .page-content {
+  padding: 15px;
+}
+.mat-card {
+  box-shadow: 0px 5px 20px rgb(0 0 0 / 5%) !important;
+  -webkit-box-shadow: 0px 5px 20px rgb(0 0 0 / 5%) !important;
+  margin: 15px;
+  padding: 0px !important;
+  border-radius: 4px;
+}
+.mat-card {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  position: relative;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+html .page-wrapper {
+  height: calc(100vh - 64px);
+}
+.page-content {
+  padding: 15px;
+  background: #d8eae6;
+}

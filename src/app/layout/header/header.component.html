@@ -1,0 +1,33 @@
+<mat-toolbar class="header">
+  <div class="nav-title">
+    <mat-nav-list class="nav-list">
+      <a mat-list-item  href=""class="logo">افهمني</a>
+      <a mat-list-item  [routerLink]="['/doctor-rendez-vous']" routerLinkActive="link-active" href=""class="link">لوحة المتابعة</a>
+      <a mat-list-item  href=""class="link">جدول المواعيد</a>
+      <a mat-list-item href="" class="link" >الرسائل</a>
+      <a mat-list-item href="" class="link" >التشخيص</a>
+    </mat-nav-list>
+  </div>
+
+  <div class="header-toolbar">
+    <div class="divider"></div>
+    <div class="search">
+      <mat-icon class="search-icon">search</mat-icon>
+      <input class="search-input" placeholder="بحث" />
+    </div>
+    <!--  <app-search></app-search>
+
+    <app-email [emails]="emails$ | async"></app-email>-->
+    <!-- <div
+      class="search"
+       (click)="showInput()"
+      [ngClass]="{ 'show-search-input': isShowInput }"-->
+    <div class="divider"></div>
+    <app-notification></app-notification>
+    <div class="divider"></div>
+    <app-user></app-user>
+  </div>
+</mat-toolbar>
+<mat-toolbar class="breadcrumb">
+  مرحبا
+</mat-toolbar>
